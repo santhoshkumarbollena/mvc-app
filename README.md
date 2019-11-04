@@ -5,7 +5,7 @@
 
 ## Image of all collaborators
 
-![Image](image.png)
+![Image](Images/image.png)
 
 # Repo to demonstrate Section,Student,Course Controller.
 Done by 
