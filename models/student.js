@@ -7,11 +7,15 @@ const DeveloperSchema = new mongoose.Schema({
   },
   Given: {
     type: String,
+    minlength: 0,
+    maxlength: 30,
     required: true,
     default: 'Given Name'
   },
   Family: {
     type: String,
+    minlength: 0,
+    maxlength: 30,
     required: true,
     default: 'Family Name'
   },
@@ -28,16 +32,22 @@ const DeveloperSchema = new mongoose.Schema({
   },
   GitHub: {
     type: String,
+    minlength: 0,
+    maxlength: 30,
     required: true
 
   },
   Website: {
     type: String,
+    minlength: 0,
+    maxlength: 30,
     required:true
 
   },
   SectionId: {
     type: Number,
+    minlength: 0,
+    maxlength: 30,
     required:true
 
   }

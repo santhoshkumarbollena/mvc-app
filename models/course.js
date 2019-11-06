@@ -29,18 +29,21 @@ const DeveloperSchema = new mongoose.Schema({
   },
   inSpring: {
     type: Boolean,
-
+    minlength: 0,
+    maxlength: 30,
     required: true
 
   },
   inSummer: {
     type: Boolean,
-
+    minlength: 0,
+    maxlength: 30,
     required: true
   },
   inFall: {
     type: Boolean,
-
+    minlength: 0,
+    maxlength: 30,
     required: true
 
   }

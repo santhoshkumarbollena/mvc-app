@@ -21,20 +21,28 @@ const DeveloperSchema = new mongoose.Schema({
   },
   StartTime: {
     type: Number,
+    minlength: 0,
+    maxlength: 30,
     required: true,
     default: 'StartTime'
   },
   RoomNumber: {
     type: String,
+    minlength: 0,
+    maxlength: 30,
     required: true
   },
   InstructorId: {
     type: String,
+    minlength: 0,
+    maxlength: 30,
     required: true
 
   },
   CourseId: {
     type: String,
+    minlength: 0,
+    maxlength: 30,
     required: true
   }
 })
